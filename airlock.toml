@@ -1,0 +1,7 @@
+presets = ["claude-code"]
+
+[network]
+policy = "deny-by-default"
+
+[vm]
+image = "docker/sandbox-templates:claude-code"
